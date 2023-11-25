@@ -1,0 +1,13 @@
+INSERT INTO [dbo].[Package] ([Name],[Description],[Active],[TotalCost],[TotalGST]) VALUES ('2 Day Family Deal', 'Lift passes and equiment for 2 adults and 2 children over 2 days', 1, 300, 30)
+INSERT INTO [dbo].[Package] ([Name],[Description],[Active],[TotalCost],[TotalGST]) VALUES ('Week Long Family Deal', 'Lift passes and equiment for 2 adults and 2 children over 7 days', 1, 500, 50)
+INSERT INTO [dbo].[Package] ([Name],[Description],[Active],[TotalCost],[TotalGST]) VALUES ('2 Adults Deal', 'Lift passes and equiment for 2 adults over 2 days', 1, 200, 30)
+INSERT INTO [dbo].[Package] ([Name],[Description],[Active],[TotalCost],[TotalGST]) VALUES ('Week Long Deal for 2 Adults', 'Lift passes and equiment for 2 adults 7 days', 1, 400, 50)
+
+INSERT INTO [dbo].Equipment ([Name],[Description],[Active],[TotalCostPerDay],[TotalGSTPerDay]) VALUES ('Skis', 'Our value skis', 1, 30, 3)
+INSERT INTO [dbo].Equipment ([Name],[Description],[Active],[TotalCostPerDay],[TotalGSTPerDay]) VALUES ('Snowshoes', 'To be used with skis / snowboards', 1, 30, 3)
+INSERT INTO [dbo].Equipment ([Name],[Description],[Active],[TotalCostPerDay],[TotalGSTPerDay]) VALUES ('Snowboard', 'It can go sideways', 1, 30, 3)
+INSERT INTO [dbo].Equipment ([Name],[Description],[Active],[TotalCostPerDay],[TotalGSTPerDay]) VALUES ('Jacket', 'Very warm, full of down', 1, 30, 3)
+
+INSERT INTO [dbo].LiftTicket ([Name],[Description],[Active],[TotalCostPerDay],[TotalGSTPerDay]) VALUES ('Adult', '18+ years or older', 1, 30, 3)
+INSERT INTO [dbo].LiftTicket ([Name],[Description],[Active],[TotalCostPerDay],[TotalGSTPerDay]) VALUES ('Teenager', '13 - 17 years old', 1, 30, 3)
+INSERT INTO [dbo].LiftTicket ([Name],[Description],[Active],[TotalCostPerDay],[TotalGSTPerDay]) VALUES ('Child', '12 years old or less', 1, 30, 3)

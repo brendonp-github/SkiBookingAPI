@@ -20,7 +20,7 @@ API part of SkiBooking, backend to SkiBookingWeb
 
 # Limitations / Further Enhancements
 * No authentication / restrictions on API use, can definitely be added down the track
-* There's only one basket - as we don't have a way of distinguishing users / sessions this hasn't been built
+* There's only one basket - as we don't have a way of distinguish users / sessions, this hasn't been built
 * Nothing happens after adding things to the basket
 * Can definitely enhance many things here, such as:
   - Relationship between packages & the other things

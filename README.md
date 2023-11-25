@@ -1,5 +1,5 @@
 # SkiBookingAPI
-API part of SkiBooking, backend to SkiBookingWeb
+API part of SkiBooking, backend to SkiBookingWeb https://github.com/brendonp-github/SkiBookingWeb
 * .Net 7, runs on SQL server
 * Dev environment is VS Studio 2022
 * Default endpoint: https://localhost:7019/

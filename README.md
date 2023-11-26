@@ -27,3 +27,4 @@ API part of SkiBooking, backend to SkiBookingWeb https://github.com/brendonp-git
   - Date range validity
   - A real pricing model
   - ... etc...
+* No automated testing set up
